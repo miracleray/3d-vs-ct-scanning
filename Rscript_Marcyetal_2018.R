@@ -17,7 +17,7 @@ library(Morpho)
 library(MASS)
 library(ggplot2)
 
-setwd("~/Dropbox/PeerJ New Results/data")
+setwd("~/3d-vs-ct-scanning/data")
 
 ## Read in data file and get it into format that geomorph recognizes
 my_data <- read.csv("Raw_coordinates.csv", header = T)
