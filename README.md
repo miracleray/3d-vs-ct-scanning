@@ -1,15 +1,15 @@
 # Low resolution scans can provide a sufficiently accurate, cost- and time-effective alternative to high resolution scans for 3D shape analyses - data and code
-Authors: Ariel E. Marcy, Carmelo Fruciano, and Vera Weisbecker
+Code authors: Ariel E. Marcy, Carmelo Fruciano, and Vera Weisbecker
 
 This repository contains all of the data and analyses needed to recreate the results from [the manuscript](https://peerj.com/articles/5032/)
 
-To cite the paper and code:
+To cite the paper and/or code:
 > Marcy AE, Fruciano C, Phillips MJ, Mardon K, Weisbecker V. (2018) Low resolution scans can provide a sufficiently accurate, cost- and time-effective alternative to high resolution scans for 3D shape analyses. PeerJ 6:e5032 https://doi.org/10.7717/peerj.5032
 
 ## Data
 Landmarking data:
-[3D meshes for all skulls](https://www.morphosource.org/Detail/ProjectDetail/Show/project_id/458) in the study available via MorphoSource
-[Raw_Coordinates.csv](3d-vs-ct-scanning/data/Raw_coordinates.csv) - the shape coordinates from landmarking both 3D and uCT scanned skulls in Viewbox 
+* [3D meshes for all skulls](https://www.morphosource.org/Detail/ProjectDetail/Show/project_id/458) in the study available via MorphoSource
+* [Raw_Coordinates.csv](3d-vs-ct-scanning/data/Raw_coordinates.csv) - the shape coordinates from landmarking both 3D and uCT scanned skulls in Viewbox 
 
 Running generalized Procrustes analysis (GPA) with bilateral symmetry requires several files to establish the relationship between landmarks:
 * [Smatrix.csv](3d-vs-ct-scanning/data/Smatrix.csv) - slider matrix required by geomorph to slide curve semi-landmarks properly
