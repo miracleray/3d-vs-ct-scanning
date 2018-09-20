@@ -17,10 +17,8 @@ library(Morpho)
 library(MASS)
 library(ggplot2)
 
-setwd("~/3d-vs-ct-scanning/data")
-
 ## Read in data file and get it into format that geomorph recognizes
-my_data <- read.csv("Raw_coordinates.csv", header = T)
+my_data <- read.csv("data/Raw_coordinates.csv", header = T)
 
 # Remove problematic fixed landmarks (these were identified during landmarking as unreliable and removed before any analyses were run)
 temp <- my_data[-(907:912),] # A pt of ext auditory meatus
